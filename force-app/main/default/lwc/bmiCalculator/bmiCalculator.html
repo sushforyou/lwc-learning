@@ -1,0 +1,37 @@
+<template>
+   <div class="app">
+    <div class="box">
+        <h1>BMI Calculator</h1>
+        <form>
+            <div class="slds-form-element">
+                <label class="slds-form-element__label slds-text-title_bold" for="text-input-height">
+                 Height(cm)</label>
+                <div class="slds-form-element__control">
+                  <input type="text" id="text-input-height" placeholder="Enter your height in cm"
+                   required="" class="slds-input" />
+                </div>
+                <label class="slds-form-element__label slds-text-title_bold" for="text-input-weight">
+                    Weight(kg)</label>
+                   <div class="slds-form-element__control">
+                     <input type="text" id="text-input-weight" placeholder="Enter your weight in kg"
+                      required="" class="slds-input" />
+                   </div>
+              </div>
+        </form>
+        <div class="info-wrapper">
+            <h2>What your BMI means</h2>
+            <p>Once you have meansured your BMI, you can determine
+                your healthy weight range. If you BMI is:
+            </p>
+            <h2 class="slds-text-color_error">Under 18.5</h2>
+            <p>Under weight</p>
+            <h2>Between 18.5 to 24.9</h2>
+            <p>You are healthy</p>
+            <h2>25.0 to 29.9</h2>
+            <p>overweight</p>
+            <h2>above 30</h2>
+            <p>Obese</p>
+        </div>
+    </div>
+   </div>
+</template>
